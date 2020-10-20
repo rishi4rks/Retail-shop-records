@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// Class for a product in retail shop
 struct stock
 {
 	string name;
@@ -11,6 +12,8 @@ struct stock
 	int price_item,avail;
 	struct stock *next;
 }*head=NULL;
+
+
 void add()
 {
 	struct stock *nn,*temp;
